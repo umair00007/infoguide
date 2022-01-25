@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Poppins;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-family: Audiowide;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 50px;
+    }
+
+    .navbar {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #c0c0c0;
+        width: 100%;
+        height: 120px;
+        z-index: 1;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: right;
+        list-style: none;
+        margin-right: 15%;
+    }
+
+    .logo {
+        flex: 1 1 auto;
+        margin-left: 10%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .banner-area {
+        width: 20%;
+    }
+
+    a {
+        margin: 15px;
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    a:hover {
+        color: #000;
+    }
+
+    .banner-area {
+        position: relative;
+        top: 120px;
+        background-image: url(head.jpeg);
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    .About,
+    .contact-area {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        height: 700px;
+    }
+
+    .text-part {
+        width: 65%;
+        height: 80%;
+    }
+
+    .About {
+        background-color: #fefefe;
+    }
+
+    .Adhaar-Card {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        height: 2500px;
+        background-color: #262626;
+        color: #fff;
+    }
+
+    .Ration-Card {
+        background-color: #fefefe;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        height: 2600px;
+    }
+
+    .Pan-Card {
+        background-color: #262626;
+        color: #fff;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        height: 2000px;
+    }
+
+    .Voter-ID {
+        background-color: #fefefe;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        height: 3400px;
+    }
+
+    .Indian-PassPort {
+        background-color: #262626;
+        color: #fff;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        height: 3400px;
+    }
+
+    .contact-area {
+        background-color: #fefefe;
+        color: 262626;
+    }
+
+    .Footer {
+        background-color: #262626;
+        color: #fff;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        height: 140px;
+    }
+
+   
+</style>
+
+<body>
+    <div class="navbar">
+        <a class="logo" href="#"> Info Guide</a>
+        <ul class="nav">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#AdhaarCard">Adhaar Card</a></li>
+            <li><a href="#RationCard">Ration Card</a></li>
+            <li><a href="#PanCard">Pan Card</a></li>
+            <li><a href="#VoterID">Voter ID</a></li>
+            <li><a href="#IndianPassPort">Indian Pass Port</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+    <section class="banner-area" id="Home">
+    </section>
+
+    <section class="About" id="About">
+        <div class="text-part">
+            <h1>About Info Guide</h1>
+            <p> "Government documents" is a blanket term used to categorize any information disseminated by a government
+                agency.
+                As such, material produced by government bodies at the local, state, federal, and internation level, in
+                addition to
+                government-funded agencies and organizations, are all considered government documents.This site provides
+                a one-stop
+                source and guide lines for important documents released or published by the Indian Government at the
+                Central or
+                State level. This site is constantly enhanced and the list presented below is not exhaustive. We intend
+                to continue
+                adding more and more useful Documents and Reports in this site.</p>
+        </div>
+    </section>
+
+    <section class="Adhaar-Card" id="AdhaarCard">
+        <div class="text-part">
+            <h1>Aadhar Card</h1>
+            <img src="aadhar.jpg" alt="adhaar" width="400" height="250">
+            <p>--------Uses of Aadhar Card-------- </p>
+            <p>  Aadhaar system provides single source offline/online identity verification across the country for the
+                residents.
+                Once residents enroll, they can use their Aadhaar number to authenticate and establish their identity
+                multiple times
+                using electronic means or through offline verification, as the case may be.</p>
+            <p>--------How to Apply:---------<br>
+                To apply for new Aadhar Card, you need to visit an Aadhaar enrolment center near you. At the enrolment
+                center, you need to fill a form, submit your biometric details along with documents required for the
+                verification of proof of identity and the proof of address.</p>
+            <p>Youtube Link: <a style=" color: rgb(88, 152, 248);"
+                    href="https://youtu.be/8IUs0Mu-1kY">https://youtu.be/8IUs0Mu-1kY</a></p>
+            <p> -----Steps to apply for Aadhar card:- -----<br>
+                Step 1. Visit the Aadhaar Self Service Update Portal.<br>
+                Step 2. In the new window, click on “Login”.<br>
+                Step 3. Enter your 12-digit Aadhaar number, captcha code and click on “Send OTP”.<br>
+                Step 4. Enter the OTP received on the mobile number registered in UIDAI’s database to login to your
+                Aadhaar account.<br>
+                Step 5. Under Services, click on “Update Aadhaar Online” to update your name, gender, date of birth,
+                address and language written on your Aadhaar card.<br>
+                Step 6. On the next page, click on “Proceed to Update Aadhaar”.<br>
+                Step 7. Choose the Aadhaar details that you want to update and click on “Proceed to Update Aadhaar”.
+                However, do remember that there is a limit on the number of times you can make an update/ correction on
+                your Aadhaar<br>
+                Step 8. Now you can see your details as they currently exist on your Aadhaar card. Enter the details
+                that you want to update/change and upload scanned copies of the supporting documents.<br>
+                Step 9. Check the preview of the newly added details and pay the online update fee of Rs. 50
+                (non-refundable) using debit/credit card or net banking.</p>
+            <p>After payment, Update Request Number (URN) is generated that can be used to check the status of the
+                Aadhaar update request. The update process usually takes about 5 – 7 days to complete. Once updated, you
+                can download the updated version and get your Aadhar card print out.</p>
+            <p>Youtube Link: <a style=" color: rgb(88, 152, 248);"
+                    href="https://youtu.be/WpMRnz-MgNM">https://youtu.be/WpMRnz-MgNM</a></p>
+
+
+
+        </div>
+    </section>
+
+    <section class="Ration-Card" id="RationCard">
+        <div class="text-part">
+            <h1>Ration Card</h1>
+            <img src="ration.jpg" alt="adhaar" width="400" height="250">
+            <p>--------Uses of Ration Card-------- </p>
+            <p>Ration cards are an official document issued by state governments in India to households that are
+                eligible to purchase subsidised food grain from the Public Distribution System under the National Food
+                Security Act (NFSA). They also serve as a common form of identification for many Indians.</p>
+            <p>Under the NFSA, all state governments in India have to identify households that are eligible for
+                purchasing subsidised food grain from the Public Distribution System and provide them with ration cards.
+                There are two types of ration cards under NFSA</p>
+            <p>Priority Household (PHH) ration cards are issued to households that meet the eligibility criteria set by
+                their state government. Each priority household is entitled to 5 kilograms of food grain per member per
+                month.</p>
+            <p>Antyodaya Anna Yojana (AAY) ration cards are issued to "poorest of poor" households. Each AAY household
+                is entitled to 35 kilograms of food grain per month.<br>
+                "One Nation, One Ration Card" is Aadhaar-based national ration card portability scheme to ensure food
+                security for all, including internal migrants within India, under which beneficiaries can purchase
+                subsidised food anywhere in India. For example, a migrant worker can obtain his share of food in his
+                migrant destination location while his family can obtain their share in their source/native home
+                location</p>
+            <p> -----Steps to apply for Ration card:- -----<br>
+                Step 1:Go to the official website <a style=" color: rgb(88, 152, 248);"
+                    href="https://ts.meeseva.telangana.gov.in">
+                    https://ts.meeseva.telangana.gov.in</a> and download the ration card application form.<br>
+                Step 2: Enter head of the household details.<br>
+                Step 3: Select the card type BPL (White card), APL (White card), AAY (Pink card).<br>
+                Step 4: Enter occupation and income.<br>
+                Step 5 :Enter gas connection details like Consumer No, Connection Status, Company Name.<br>
+                • Enter a full address.<br>
+                • Add member details<br>
+                • Then add Informant details.<br>
+                Step 6: Along with the application form take a copy of the ID proof document, photo.<br>
+                Step 7: Then upload your documents online.<br>
+
+                Download New Ration Card Application form.!!</p>
+            <p>Youtube Link: <a style=" color: rgb(88, 152, 248);"
+                    href="https://youtu.be/wvPOUYF0Onw">https://youtu.be/wvPOUYF0Onw</a></p>
+
+
+        </div>
+    </section>
+
+    <section class="Pan-Card" id="PanCard">
+        <div class="text-part">
+            <h1>Pan Card</h1>
+            <img src="pan.jpg" alt="adhaar" width="400" height="250">
+            <p>
+                ------ Uses of the PAN card : ------<br>
+                PAN card is accepted as valid proof of identity anywhere in the country,and also considered as the proof
+                of age.</p>
+
+            <p> It also be used as proof of identity when making an application of passport,voterid,driving
+                licence,electricty connection</p>
+            <p> Permanent Account Number(PAN) is a unique alphanumeric number issued by Income Tax Department</p>
+            <p>PAN Card is important for taxpayers as it is necessary for all financial transactions and is used to
+                track the inflow and outflow of your money. It is important when paying income tax, receiving tax
+                refunds, and receiving communication from the Income Tax Department. ... PAN Card also serves as a proof
+                of identity.</p>
+
+            <p>------How to apply PAN card online ------<br>
+
+                Step 1: Go to <a style=" color: rgb(88, 152, 248);" href="incometax.com">incometax.com</a> website .Then
+                click on instant PAN through adhar.<br>
+
+                Step 2: Then click on get PAN. Then enter adhar number and fill the captcha then ,accept terms and
+                conditions ,click on generate adhar otp<br>
+                Step 3: Enter the otp ,then click on I accept then submit pan request then you will get acknowledgement
+                number.<br>
+                Step 4: Then click on check status then again enter adhar number and captha then if u submit you will
+                get otp enter that.<br>
+                Step 5 : Click on download PAN.<br>
+                ......You will get your PAN card........<br>
+                ....Thank you.....</p>
+            <p>Youtube Link: <a style=" color: rgb(88, 152, 248);"
+                    href="https://youtu.be/AMH-DE5jLkI">https://youtu.be/AMH-DE5jLkI</a></p>
+        </div>
+    </section>
+
+    <section class="Voter-ID" id="VoterID">
+        <div class="text-part">
+            <h1>Voter ID</h1>
+            <img src="voterid.jpg" alt="adhaar" width="600" height="500">
+            <p>--------Uses of Voter ID-------- </p>
+            <p> The Indian voter ID card is an identity document issued by the Election Commission of India to adult
+                domiciles of India who
+                have reached the age of 18, which primarily serves as an identity proof for Indian citizens while
+                casting their ballot in
+                the country's municipal, state, and national elections.</p>
+            <p>-----How to Apply Online----- <br>
+            <p>Election commission of India offers online voter registration for Indian citizens who have attained the
+                age of 18 on the
+                qualifying date (1st of January of the year of revision of electoral roll). Citizen, can enroll
+                himself/herself as General
+                Voter and fill Form 6 online at National Voters' Service Portal. Registered voters should also check
+                their enrollment status.</p>
+            <p>Youtube Link: <a style=" color: rgb(88, 152, 248);"
+                    href="https://youtu.be/xnSMX3XWuKo">https://youtu.be/xnSMX3XWuKo</a></p>
+            <p>
+                ---------Steps to Apply----------<br>
+                Step 1: Go to National Voter's Service Portal <a style=" color: rgb(88, 152, 248);"
+                    href="https://nvsp.in/">nvsp.in</a>. Then click on Voter Portal.<br>
+                Step 2: Create an account to login using Mobile number or Email ID. A verification
+                code or mail will be sent. Then create a password. Account will be created.<br>
+                Step 3: Enter your profile details like name, state, gender.<br>
+                Step 4: A page will appear. Click on "New Voter Registration". A digital assistant appears. Then click
+                on "Let's Start".<br>
+                Step 5: Select "you are applying for first time" option. Select whether you are citizen of India or not.
+                Click "Save and
+                Continue".<br>
+                Step 6: A form will appear where you have to fill your personal details. Select and upload your Aadhar
+                or PAN card as DOB
+                proof document in supporting format(max 2MB). Click on "save and continue".<br>
+                Step 7: Enter your personal particulars. Upload a passport picture of yours. Then select if you have any
+                disability.<br>
+                Step 8: Enter family member details, who already has a Voter ID.<br>
+                Step 9: Enter your current address. Select and Upload an Address proof. Then click on Save and
+                Continue.<br>
+                Step 10: Fill the Declaration of your residential address.<br>
+                Step 11: The form you filled appears on screen. If you want to make any changes click on "Edit Form" and
+                then click on "Submit".<br>
+                Step 12: Congratulations! You have successfully submitted your application for New Voter
+                Registration.<br>
+                Your Application Reference ID appears, to track the status of application.</p>
+
+            <p>------Tracking Voter ID application status------<br>
+
+                1. To check the status of your application online, you will have to visit the NVSP website, or click
+                here
+                <a style=" color: rgb(88, 152, 248);" href="https://www.nvsp.in/">https://www.nvsp.in/</a><br>
+
+                2. Now, click on the 'Application status' link.<br>
+
+                3. Enter the reference ID and click on 'Track Application status'. Your application status will appear
+                on the screen.
+                Here, you will see the application status and it can be tracked back if your application has been
+                processed.<br>
+
+                -----Your Voter ID is ready-----
+            </p>
+        </div>
+    </section>
+
+
+    <section class="Indian-PassPort" id="IndianPassPort">
+        <div class="text-part">
+            <h1>Indian Passport</h1>
+            <img src="passport.jpg" alt="adhaar" width="400" height="400">
+            <p>------What is Passport ? ------<br>
+                An Indian passport is issued by the Ministry of External Affairs of the Republic of India to Indian
+                citizens for the purpose of international travel. It enables the bearer to travel internationally and
+                serves as proof of Indian citizenship as per the Passports Act (1967). The Passport Seva (Passport
+                Service) unit of the Consular, Passport & Visa (CPV) Division of the Ministry of External Affairs
+                functions as the issuing authority and is responsible for issuing Indian passports on application to all
+                eligible Indian citizens. Indian passports are issued at 93 passport offices located across India and at
+                197 Indian diplomatic missions abroad</p>
+            <p>------How to Apply Passport ------<br>Login to the Passport Seva Online Portal with the registered Login
+                Id. Click "Apply for Fresh
+                Passport/Re-issue of Passport" link. Fill in the required details in the form and submit. Click the "Pay
+                and Schedule Appointment" link on the "View Saved/Submitted Applications" screen to schedule an
+                appointment.</p>
+            <p>------Steps to apply for Passport Services -------<br>
+                1. Steps to Apply for Passport Services.<br>
+                2. Visit Passport Seva Portal <a style=" color: rgb(88, 152, 248);"
+                    href="http://passportindia.gov.in">http://passportindia.gov.in/</a><br>
+                3. Register yourself as new user by creating User Id.<br>
+                4. Provide User Id details and click Register. E-mail Id is mandatory,
+                registration confirmation mail will be sent to your e-mail Id.<br>
+                5. Login to the portal.<br>
+                6. Enter User Id, password and displayed Captcha characters and click Login. Captcha Characters.<br>
+                7. Select required service (e.g. Apply for Fresh Passport / Reissue of Passport).<br>
+                8. You can apply for passport/reissue passport through two methods: • Alternate
+                1: Downloading e-Form and uploading later • Alternate 2: Filling application form online.<br>
+                9. Alternate 1: Download the e-Form, which can be filled offline and uploaded later.<br>
+                10. Alternate 1 (contd.): Download e-Form for required service. <br>
+                11. Alternate 1 (contd.): Fill the e-Form.<br>
+                12. Alternate 1 (contd.): Upload the filled e-Form.<br>
+                13. Alternate 2: Click the highlighted link to fill the application form online.<br>
+                14. Alternate 2: Fill the application form online and submit.<br>
+                15. Schedule Appointment PSKs for which Online Payment is mandatory for booking appointments.
+                Access the URL: <a style=" color: rgb(88, 152, 248);"
+                    href="www.passportindia.gov.in">www.passportindia.gov.in/</a> for list of these PSKs<br>
+                16. View Saved/Submitted Application.<br>
+                17. Make payment & schedule an appointment for visiting PSK.<br>
+                18. Choose the mode of payment.<br>
+                19. Select PSK, Enter Captcha characters and click “Next”.<br>
+                20. Earliest available Appointment Date will be displayed on screen. Click “Pay and Book Appointment” to
+                proceed for
+                appointment booking.<br>
+                21. Click Payment Mode of your convenience and pay indicated application fee amount.<br>
+                22. Appointment confirmed for visiting the PSK.<br>
+                23. Print Application Receipt.<br>
+                24. Check the date and time of your appointment on application receipt.<br>
+                25. In case of additional information or clarification, please contact our national call centre at toll
+                free number <a style=" color: rgb(88, 152, 248);"">1800-258-1800</a> .</p>
+        </div>
+    </section>
+
+
+    <section class=" contact-area" id="Contact">
+                    <div class="text-part">
+                        <h1>Contact Us</h1>
+                        <p>For details of eligibility criteria or any other additional information related to Info
+                            Guide, Kindly visit -<br>
+                            Instagram :<a style=" color: rgb(88, 152, 248);"
+                            href="https://www.instagram.com/invites/contact/?i=1ss96q1zb76kt&utm_content=1xffkax">https://www.instagram.com/umair</a>
+                            <br>
+                    LinkedIn :<a style=" color: rgb(88, 152, 248);"
+                            href="https://www.linkedin.com/in/mohammed-umair-53328a229">https://www.linkedin.com/in/mohammed-umair-53328a229</a></p>
+                        <p>Support -<br>
+                            Toll free Number :<a style=" color: rgb(88, 152, 248);"">1800-258-1800</a><br>
+                Mobile No        :<a style=" color: rgb(88, 152, 248);"">9441682007</a><br>
+                
+            </p>
+                    </div>
+    </section>
+
+    <section class="Footer" id="Contact">
+        <div class="text-part">
+            <p>Copyright © 2022,Design and Developed by Team Amaze.</p>
+            
+        </div>
+    </section>
+
+</body>
+
+</html>
